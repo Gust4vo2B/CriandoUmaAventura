@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca do tesouro secreto!</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/download.jpg" alt="">
+            <p>Na excursão escolar, você foi para um acampamento onde dentro do ônibus havia um sujeito que parecia o guia da excursão. Ele contou pra todos dentro do veículo que perto do alojamento do acampamento teria uma caverna misteriosa, e dentro dela havia um baú cheio de relíquias valiosas.</p>
+            <button class="btn-proximo" data-proximo="1">Perguntas sobre</button>
+            <button class="btn-proximo" data-proximo="2">Não dar a mínima</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Ele diz que na hora de dormir vai procurar a caverna e quem fosse com ele, teria a recompensa dividida.</p>
+            <button class="btn-proximo" data-proximo="3">Topar</button>
+            <button class="btn-proximo" data-proximo="4">Não topar</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Chegando a noite, Você o segue para a trilha, porém em determinado momento o guia foi pego por um urso, dai você se vira e corre em direção a um riacho.</p>
+            <button class="btn-proximo" data-proximo="5">Ir pelo rio</button>
+            <button class="btn-proximo" data-proximo="6">Se esconder até o amanhancer</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Você despista o urso e está pronto para seguir em frente.</p>
+            <button class="btn-proximo" data-proximo="7">Continuar</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/trilha.jpg" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Você decide que a aventura é grande demais e volta para casa, mas sempre se pergunta o que teria
+                encontrado.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Seguindo por um longo caminho, você encontra um toco de árvora com um mapa dentro.</p>
+            <button class="btn-proximo" data-proximo="7">Pegar o mapa</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>No Amanhecer, você descobre que perdeu muito tempo, pois alguém pode sentir sua falta Então sua única escolha é correr</p>
+            <button class="btn-proximo" data-proximo="8">Seguir pelo caminho do rio</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Após pegar um mapa, você o segue até se deparar com duas pontes</p>
+            <button class="btn-proximo" data-proximo="9">Seguir pela esquerda</button>
+            <button class="btn-proximo" data-proximo="10">Seguir pela direita</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Você encontra um penhasco, sua paisagem te mostra a caverna do mapa lá embaixo</p>
+            <button class="btn-proximo" data-proximo="7">Seguir em frente</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>A ponte a esquerda te leva até a margem de um rio próximo a caverna.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a caverna</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>a ponte a direita te leva até um covio de lobos.</p>
+            <button class="btn-proximo" data-proximo="12">Retornar e tentar o outro lado</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/caverna.jpg" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>Dentro da caverna, vcê encontra o tesouro tão desejado</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Retornando e escolhendo a ponte da esquerda, você finalmente encontra a caverna</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a caverna</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
